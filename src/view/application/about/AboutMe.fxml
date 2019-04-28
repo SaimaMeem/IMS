@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.application.about.AboutMeController">
+   <children>
+      <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="517.0" prefWidth="735.0">
+               <children>
+                  <AnchorPane prefHeight="517.0" prefWidth="689.0">
+                     <children>
+                        <Label layoutX="52.0" layoutY="170.0" prefHeight="43.0" prefWidth="666.0" text="Ahsanullah University of Science &amp; Technology">
+                           <font>
+                              <Font name="System Bold" size="27.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="230.0" layoutY="231.0" text="Syeda Shariqa (16.01.04.014)">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="230.0" layoutY="259.0" text="Saima Sultana (16.01.04.020)">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Label>
+                        <Label layoutX="229.0" layoutY="293.0" text="Nadia Hossain (16.01.04.024)">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Label>
+                        <Label layoutX="184.0" layoutY="307.0" />
+                        <Hyperlink layoutX="341.0" layoutY="292.0" />
+                        <Hyperlink layoutX="341.0" layoutY="303.0" />
+                        <ImageView fx:id="imgMyImg" fitHeight="162.0" fitWidth="153.0" layoutX="248.0" pickOnBounds="true" smooth="false" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
